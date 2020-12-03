@@ -29,7 +29,7 @@
 	</header>
 
      <?php /*
-    $filepath = File::build_path(array("view", $controller, "$view.php"));
+    $filepath = File::build_path(array("view", static::$controller, "$view.php"));
     require $filepath;
     */?>
 

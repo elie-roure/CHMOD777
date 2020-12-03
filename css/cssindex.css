@@ -37,7 +37,7 @@ nav > div > a {
     text-align: center;
 }
 
-nav > div:hover > .submenu { /* faire apparaitres les menus déroulants */
+nav > div:hover > .submenu { /* faire apparaitre les menus déroulants */
     display: block;
 }
 
@@ -47,5 +47,5 @@ nav div .submenu div {
 
 nav > div > .submenu > div:hover { /* transition pour chagner bg qd passage souris */
     background: black;
-    transition: 1.3s
+    transition: 1.3s;
 }
