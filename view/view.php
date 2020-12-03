@@ -8,21 +8,24 @@
 	<body>
 	<header>
         <nav>
-            <div><a href="?action=readAll&controller=spot">Spots</a></div>
+            <div><a href="?action=readAll&controller=spot">Spots</a>
                 <div class="submenu">
                     <div><a href="?action=readAll">Liste</a></div>
                     <div><a href="?action=create">Créateur</a></div>
                 </div>
-            <div><a href="?action=readAll&controller=compterendu">Comptes Rendus</a></div>
+            </div>
+            <div><a href="?action=readAll&controller=compterendu">Comptes Rendus</a>
                 <div class="submenu">
                     <div><a href="?action=readAll">Liste</a></div>
                     <div><a href="?action=create">Créateur</a></div>
                 </div>
-            <div><a href="?action=readAll&controller=utilisateur">Utilisateurs</a></div>
+            </div>
+            <div><a href="?action=readAll&controller=utilisateur">Utilisateurs</a>
                 <div class="submenu">
                     <div><a href="?action=readAll">Liste</a></div>
                     <div><a href="?action=create">Créateur</a></div>
                 </div>
+            </div>
             <div><a href="./html/apropos.html">A Propos</a></div>
             <div><a href="./html/contact.html">Contact</a></div>
         </nav>

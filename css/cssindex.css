@@ -42,7 +42,7 @@ nav > div:hover > .submenu { /* faire apparaitre les menus déroulants */
 }
 
 nav div .submenu div {
-    background: #487338;
+    background: #0089C1;
 }
 
 nav > div > .submenu > div:hover { /* transition pour chagner bg qd passage souris */
