@@ -1,7 +1,6 @@
 <?php
 
-require_once File::build_path(array("controller","ControllerVoiture.php"));
-require_once File::build_path(array("controller","ControllerUtilisateur.php"));
+require_once File::build_path(array("controller","ControllerCompteRendu.php"));
 
 // On recupere le controller passée dans l'URL
 
@@ -18,30 +17,24 @@ else {
 	$controller_class = "Controller" . ucfirst($controller);
 }
 
-if (class_exists($controller_class))
+
+// On recupère l'action passée dans l'URL
+if (isset($_GET['action']))
 {
-	// On recupère l'action passée dans l'URL
-	if (isset($_GET['action']))
+	if ((in_array($_GET['action'],get_class_methods($controller_class))))
 	{
-		if ((in_array($_GET['action'],get_class_methods($controller_class))))
-		{
-			$action = $_GET["action"];
-		}
-		else
-		{
-			$action = "error";
-		}
+		$action = $_GET["action"];
 	}
 	else
 	{
-		$action = "readAll";
+		$action = "error";
 	}
 }
 else
 {
-	$controller_class = "ControllerCompteRendu";
-	$action = "error";
+	$action = "readAll";
 }
+
 
 // Appel de la méthode statique $action de ControllerVoiture
 $controller_class::$action();
