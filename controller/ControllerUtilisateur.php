@@ -11,6 +11,24 @@ class ControllerUtilisateur {
         require File::build_path(array('view', 'view.php'));
     }
 
+    public static function error() {
+        $pagetitle = "Erreur user";
+        $view = "error";
+        require File::build_path(array('view', 'view.php'));
+    }
+
+    public static function read() {
+        $user = ModelUtilisateur::getUtilisateurByLogin($_GET['login']);    // Récupère l'utilisateur
+
+        if(!$user) {    // S'il n'existe pas
+            ControllerUtilisateur::error();
+        }
+        else {
+            $pagetitle = "Détails";
+            $view = "details";
+            require File::build_path(array('view', 'view.php'));
+        }
+    }
 
 }
 ?>
