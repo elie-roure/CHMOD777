@@ -88,6 +88,51 @@ class ModelUtilisateur {
         }
     }
 
+    public function update($data) {
+        $sql = "UPDATE Utilisateur SET nom=:n, prenom=:p, adresse=:a, mail=:m, tel=:t, mdp=:mdp";
+
+        $values = array(
+            'n' => $data['nom'],
+            'p' => $data['prenom'],
+            'a' => $data['adresse'],
+            'm' => $data['mail'],
+            't' => $data['tel'],
+            'mdp' => Security::hacher($data['mdp']),
+        );
+
+        try {
+            $req_prep = Model::$pdo->prepare($sql);
+            $req_prep->execute($values);
+        }
+        catch(PDOException $e) {
+            echo $e->getMessage();
+            return false;
+        }
+    }
+
+    public function save() {
+        $sql = "INSERT INTO Utilisateur(login, nom, prenom, adresse, mail, tel, mdp) VALUES (:l,:n,:p,:a,:m,:t,:mdp)";
+
+        $values = array(
+            'l' => $this->login,
+            'n' => $this->nom,
+            'p' => $this->prenom,
+            'a' => $this->adresse,
+            'm' => $this->mail,
+            't' => $this->tel,
+            'mdp' => Security::hacher($this->mdp),
+        );
+
+        try {
+            $req_prep = Model::$pdo->prepare($sql);
+            $req_prep->execute($values);
+        }
+        catch(PDOException $e) {
+            echo $e->getMessage();
+            return false;
+        }
+    }
+
 
 
 
