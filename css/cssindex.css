@@ -35,6 +35,7 @@ nav > div > a {
     display: none;
     width: 100%;
     text-align: center;
+    transition: 0s;
 }
 
 nav > div:hover > .submenu { /* faire apparaitre les menus déroulants */
@@ -43,9 +44,12 @@ nav > div:hover > .submenu { /* faire apparaitre les menus déroulants */
 
 nav div .submenu div {
     background: #0089C1;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 nav > div > .submenu > div:hover { /* transition pour chagner bg qd passage souris */
-    background: black;
+    background: #006B97;
     transition: 1.3s;
 }
+

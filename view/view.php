@@ -26,15 +26,22 @@
                     <div><a href="?action=create">Créateur</a></div>
                 </div>
             </div>
-            <div><a href="./html/apropos.html">A Propos</a></div>
-            <div><a href="./html/contact.html">Contact</a></div>
+            <div><a href="?action=apropos">A Propos</a></div>
+            <div><a href="?action=contact">Contact</a></div>
         </nav>
 	</header>
 
-     <?php
-    $filepath = File::build_path(array("view", static::$controller, "$view.php"));
-    require $filepath;
-    ?>
+
+    <main>
+        <p>
+            <?php
+            $filepath = File::build_path(array("view", static::$controller, "$view.php"));
+            require $filepath;
+            ?>
+            BONJOUR JE SUIS LA
+        </p>
+    </main>
+
 
 	<footer>
         <p style="border: 1px solid black;text-align:right;padding-right:1em;">
