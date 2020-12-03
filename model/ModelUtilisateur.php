@@ -53,20 +53,29 @@ class ModelUtilisateur {
     }
 
     public static function getUtilisateurByLogin($login) {
+        /**
+         * @action: Récupère l'utilisateur par son login
+         * @param: $login, login de l'utilisateur
+         */
+
         $sql = "SELECT * FROM Utilisateur WHERE login = :l";
-        $req_prep = Model::$pdo->prepare($sql);
-        $values = array('l' => $login);
+        $req_prep = Model::$pdo->prepare($sql); // Prépare la requête pour éviter les injections SQL
+        $values = array('l' => $login);     // Remplace le :l dans la requête par le $login
         $req_prep->execute($values);
         $req_prep->setFetchMode(PDO::FETCH_CLASS, 'ModelUtilisateur');
-        $tab_user = $req_prep->fetchAll();
+        $tab_user = $req_prep->fetchAll();  // Récupère le résultat de la requête sous forme de tableau
 
-        if(empty($tab_user)) {
+        if(empty($tab_user)) {  // Si vide
             return false;
         }
         return $tab_user[0];
     }
 
     public static function getAllUtilisateur() {
+        /**
+         * @action: Récupère tous les utilisateurs de la BD
+         */
+
         $req = Model::$pdo->query("SELECT * FROM Utilisateur");
         $req->setFetchMode(PDO::FETCH_CLASS, 'ModelUtilisateur');
         $tab_user = $req->fetchAll();
@@ -75,6 +84,11 @@ class ModelUtilisateur {
     }
 
     public static function delete($login) {
+        /**
+         * @action: Supprime l'utilisateur donné par son login
+         * @param: $login, login de l'utilisateur
+         */
+
         $sql = "DELETE FROM Utilisateur WHERE login = :l";
         $value = array('l' => $login);
 
@@ -89,6 +103,10 @@ class ModelUtilisateur {
     }
 
     public function update($data) {
+        /**
+         * @action: Mets à jour l'utilisateur avec les données passées en paramètres
+         * @param: $data, données pour maj de l'utilisateur
+         */
         $sql = "UPDATE Utilisateur SET nom=:n, prenom=:p, adresse=:a, mail=:m, tel=:t, mdp=:mdp";
 
         $values = array(
@@ -97,7 +115,7 @@ class ModelUtilisateur {
             'a' => $data['adresse'],
             'm' => $data['mail'],
             't' => $data['tel'],
-            'mdp' => Security::hacher($data['mdp']),
+            'mdp' => Security::hacher($data['mdp']),    // Hachage du mdp pour sécurité
         );
 
         try {
@@ -111,6 +129,10 @@ class ModelUtilisateur {
     }
 
     public function save() {
+        /**
+         * @action: Enregistre l'utilisateur dans la BD
+         */
+
         $sql = "INSERT INTO Utilisateur(login, nom, prenom, adresse, mail, tel, mdp) VALUES (:l,:n,:p,:a,:m,:t,:mdp)";
 
         $values = array(
