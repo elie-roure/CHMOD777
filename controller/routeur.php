@@ -1,6 +1,7 @@
 <?php
 
 require_once File::build_path(array("controller","ControllerCompteRendu.php"));
+require_once File::build_path(array("controller", "ControllerUtilisateur.php"));
 
 // On recupere le controller passée dans l'URL
 
@@ -21,7 +22,7 @@ else {
 // On recupère l'action passée dans l'URL
 if (isset($_GET['action']))
 {
-	if ((in_array($_GET['action'],get_class_methods($controller_class))))
+	if (in_array($_GET['action'], get_class_methods($controller_class)))
 	{
 		$action = $_GET["action"];
 	}
