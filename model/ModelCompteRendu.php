@@ -14,6 +14,10 @@ class ModelCompteRendu
 	private $pollution;
 	private $txt_descriptif;
 
+
+
+
+
 	public function __construct($id_compteRendu = NULL, $id_spot = NULL, $login = NULL, $date_ = NULL, $duree_sessions = NULL, $houle = NULL, $meteo = NULL, $pollution = NULL, $txt_descriptif = NULL) {
 		if (!is_null($id_compteRendu) && !is_null($id_spot) && !is_null($login) && !is_null($date_) && !is_null($duree_sessions) && !is_null($houle) && !is_null($meteo) && !is_null($pollution) && !is_null($txt_descriptif)) {
 			$this->id_compteRendu = $id_compteRendu;
@@ -37,11 +41,11 @@ class ModelCompteRendu
 	}
 
 	public function afficher() {
-		echo $this->id_compteRendu ." ". $this->couleur . " de plaque " . $this->immatriculation;
+		echo $this->id_compteRendu;
 	}
 
 	public static function getCompteRenduById($id) {
-		$sql = "SELECT * from voiture WHERE id_compteRendu=:nom_tag";
+		$sql = "SELECT * from CompteRendu WHERE id_compteRendu=:nom_tag";
 		// Préparation de la requête
 		$req_prep = Model::$pdo->prepare($sql);
 
@@ -135,4 +139,80 @@ class ModelCompteRendu
 			return false;
 		}
 	}
+
+
+	//////////////////////////: getter ://////////////////////////
+
+	/**
+	 * @return mixed
+	 */
+	public function getIdCompteRendu()
+	{
+		return $this->id_compteRendu;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getIdSpot()
+	{
+		return $this->id_spot;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getLogin()
+	{
+		return $this->login;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getDate()
+	{
+		return $this->date_;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getDureeSessions()
+	{
+		return $this->duree_sessions;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getHoule()
+	{
+		return $this->houle;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getMeteo()
+	{
+		return $this->meteo;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getPollution()
+	{
+		return $this->pollution;
+	}
+
+	/**
+	 * @return mixed
+	 */
+	public function getTxtDescriptif()
+	{
+		return $this->txt_descriptif;
+	}
+
 }

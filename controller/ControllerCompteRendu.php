@@ -3,6 +3,8 @@ require_once File::build_path(array("model","ModelCompteRendu.php"));
 
 class ControllerCompteRendu {
 
+	protected static $controller = "CompteRendu";
+
 	public static function readAll() {
 		$tab_c = ModelCompteRendu::getAllCompteRendu();     //appel au modèle pour gerer la BD
 		$controller='CompteRendu';
