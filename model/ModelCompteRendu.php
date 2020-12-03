@@ -86,4 +86,53 @@ class ModelCompteRendu
 			return false;
 		}
 	}
+
+	public function delete($primary_value){
+
+		$sql = " DELETE FROM CompteRendu WHERE id_compteRendu = :tag";
+		$req_prep = Model::$pdo->prepare($sql);
+
+		$values = array(
+			"tag" => $primary_value,
+		);
+
+		try
+		{
+			$req_prep->execute($values);
+		}
+		catch(PDOException $e)
+		{
+			return false;
+		}
+	}
+
+	public function update($data){
+
+		$values = array();
+		$i = 0;
+
+		$values = array(
+			"id_compteRendu" => $this->id_compteRendu,
+			"id_spot" => $this->id_spot,
+			"login" => $this->login,
+			"date_" => $this->date_,
+			"duree_sessions" => $this->duree_sessions,
+			"houle" => $this->houle,
+			"meteo" => $this->meteo,
+			"pollution" => $this->pollution,
+			"txt_descriptif" => $this->txt_descriptif,
+		);
+
+		$sql = " UPDATE CompteRendu SET id_spot = :id_spot ,login = :login ,date_ = :date_ ,duree_sessions = :duree_sessions ,houle = :houle ,meteo = :meteo ,pollution = :pollution ,txt_descriptif = :txt_descriptif WHERE id_compteRendu = :id_compteRendu ";
+		$req_prep = Model::$pdo->prepare($sql);
+
+		try
+		{
+			$req_prep->execute();
+		}
+		catch(PDOException $e)
+		{
+			return false;
+		}
+	}
 }
