@@ -140,6 +140,7 @@ class ControllerCompteRendu {
 		$pagetitle='error';
 		require File::build_path(array("view","view.php"));
 	}
+
 }
 ?>
 
