@@ -2,7 +2,7 @@
 require_once File::build_path(array('model', 'ModelUtilisateur.php'));
 
 class ControllerUtilisateur {
-    protected static $controller = 'user';
+    protected static $controller = 'utilisateur';
 
     public static function readAll() {
         $tab_u = ModelUtilisateur::getAllUtilisateur();
