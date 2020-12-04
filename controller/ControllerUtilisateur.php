@@ -131,5 +131,14 @@ class ControllerUtilisateur {
         }
     }
 
+    public static function deconnect() {
+        session_unset();
+        session_destroy();
+        setcookie(session_name(), '', time() - 1);
+        $view = 'connect';
+        $pagetitle = 'connexion';
+        require File::build_path(array('view', 'view.php'));
+    }
+
 }
 ?>

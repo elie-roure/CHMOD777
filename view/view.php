@@ -22,7 +22,7 @@
             <div><a href="#">Comptes Rendus</a>
                 <div class="submenu">
                     <div><a href="?action=readAll">Liste</a></div>
-                    <div><a href="?action=create">Créateur</a></div>
+                    <?=(isset($_SESSION['login'])) ? "<div><a href='?action=create'>Créateur</a></div>" : ""?>
                 </div>
             </div>
             <?=(isset($_SESSION['login'])) ? "<div><a href='?action=read&controller=utilisateur&login='".$_SESSION['login'].">Profil</a></div>" : ""?>
