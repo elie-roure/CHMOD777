@@ -4,6 +4,9 @@
 		<meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="./css/cssindex.css">
 		<title><?php echo "BioSurfers"; ?></title>
+        <script src="./amongUS/amongUs.js">
+            start();
+        </script>
 	</head>
 	<body>
 	<header>
@@ -39,6 +42,7 @@
 
 
 	<footer>
+        <p onclick="alert('tu as éliminé ' + calculerMort() +' personne')">afficher nombre de kill</p>
         <p>
             © Site BioSurfers
         </p>

@@ -1,5 +1,4 @@
-<form action="./formsent.html" method="post">
-    <legend>Veuillez remplir ce formulaire si vous souhaitez nous contacter.</legend>
+<form action="index.php" method="get">
     <div>
         <div>
             <label>Nom <em>*</em> :</label>
@@ -58,6 +57,8 @@
         <p><em>*</em> Ce champ est requis.</p>
 
         <div>
+            <input type="hidden" name="controller" value="contact">
+            <input type="hidden" name="action" value="redirection">
             <input type="submit" value="Envoyer" class="button">
         </div>
     </div>

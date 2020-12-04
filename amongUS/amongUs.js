@@ -67,7 +67,7 @@ function tuerRose() {
         var valCookie = getCookie("rose") + 1;
         document.cookie = `rose=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("Rouge was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -79,7 +79,7 @@ function tuerViolet() {
         var valCookie = getCookie("violet") + 1;
         document.cookie = `violet=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("Violet was zigouillé and is the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -91,7 +91,7 @@ function tuerVert() {
         var valCookie = getCookie("vert") + 1;
         document.cookie = `vert=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("Vert was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -104,7 +104,7 @@ function tuerBlanc() {
         var valCookie = getCookie("blanc") + 1;
         document.cookie = `blanc=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("blanc was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -116,7 +116,7 @@ function tuerJaune() {
         var valCookie = getCookie("jaune") + 1;
         document.cookie = `jaune=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("Jaune was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -129,7 +129,7 @@ function tuerBleu() {
         var valCookie = getCookie("bleu") + 1;
         document.cookie = `bleu=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("Bleu was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -143,7 +143,7 @@ function tuerMarron() {
         var valCookie = getCookie("marron") + 1;
         document.cookie = `marron=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("Marron was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -157,7 +157,7 @@ function tuerBleuClair() {
         var valCookie = getCookie("bleuClair") + 1;
         document.cookie = `bleuClair=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("BleuClair was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }
@@ -170,7 +170,7 @@ function tuerVertClair() {
         var valCookie = getCookie("vertClair") + 1;
         document.cookie = `vertClair=${valCookie}`;
 
-        image.src = "./img/fantome.png";
+        image.src = "./amongUS/img/fantome.png";
         alert("VertClair was zigouillé but not the impostor")
     }else alert("Tu as deja tué ctte personne");
 }

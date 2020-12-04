@@ -10,7 +10,7 @@ setcookie("TestCookie", $_COOKIE["TestCookie"]+1, time()+3600);
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="test.js">
+    <script src="amongUs.js">
         start();
     </script>
 </head>

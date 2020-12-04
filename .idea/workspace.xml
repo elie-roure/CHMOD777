@@ -21,7 +21,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b80c1def-9ca2-4cda-8abe-bca51e21595c" name="Default Changelist" comment="git ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/ModelUtilisateur.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/ModelUtilisateur.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amongUS/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amongUS/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/amongUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amongUS/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/test.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/amongUS/testbis.html" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/testbis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/ControllerContact.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ControllerContact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/html/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/html/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eCommerce" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetPHP" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
