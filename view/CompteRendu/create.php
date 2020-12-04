@@ -11,7 +11,7 @@
 		</div>
 		<div>
 			<label for="login">Login <em>*</em> :</label>
-			<input type="text" placeholder="Ex : robertdupont" name="login" id="login" required/>
+			<input type="text" value="<?php echo $_SESSION['login']?>" name="login" id="login" readonly/>
 		</div>
         <div>
             <label for="date_">Date <em>*</em> :</label>
