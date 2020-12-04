@@ -4,6 +4,7 @@ require_once File::build_path(array("controller","ControllerCompteRendu.php"));
 require_once File::build_path(array("controller", "ControllerUtilisateur.php"));
 require_once File::build_path(array("controller", "ControllerApropos.php"));
 require_once File::build_path(array("controller", "ControllerContact.php"));
+require_once File::build_path(array("controller", "ControllerSpot.php"));
 
 // On recupere le controller passée dans l'URL
 
