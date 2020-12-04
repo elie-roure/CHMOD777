@@ -11,8 +11,8 @@ echo "<div>" . htmlspecialchars($user->getTel()) . "</div>";
 echo '<div style="display: flex; justify-content: space-evenly;
 max-width: 100%; color: white">';
 
-echo '<p class="button"> <a href="index.php?action=delete&controller=utilisateur&login=' . rawurlencode($user->getLogin()) . '"> Supprimer </a> </p>';
-echo '<p class="button"> <a href="index.php?action=update&controller=utilisateur&login=' . rawurlencode($user->getLogin()) . '"> Modifier </a> </p>';
+echo '<p class="button"> <a style="text-decoration: none; color: white" href="index.php?action=delete&controller=utilisateur&login=' . rawurlencode($user->getLogin()) . '"> Supprimer </a> </p>';
+echo '<p class="button"> <a style="text-decoration: none; color: white" href="index.php?action=update&controller=utilisateur&login=' . rawurlencode($user->getLogin()) . '"> Modifier </a> </p>';
 
 echo '</div>';
 
