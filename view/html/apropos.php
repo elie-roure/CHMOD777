@@ -1,0 +1,9 @@
+<?php echo '
+
+<div>
+    <p>Le surf fait rêver. Destinations paradisiaques, culture du cool, sport de nature en ont fait un vecteur d’image que les publicitaires adorent. Pourtant, telle une photo Instagram dont on découvrirait les coulisses, la pratique du surf (ou de toute autre activité nautique immergée) cache une réalité très différente du fantasme. </p>
+    <p>CONTEXTELe surf fait rêver. Destinations paradisiaques, culture du cool, sport de nature en ont fait un vecteur d’image que les publicitaires adorent. Pourtant, telle une photo Instagram dont on découvrirait les coulisses, la pratique du surf (ou de toute autre activité nautique immergée) cache une réalité très différente du fantasme. Otites, gastro-entérites, irritations cutanées, trois maladies qu’un tiers des surfeur·euse·s ont déjà affirmé avoir eu après une session de surf. Tout au long de l’année, les eaux dans lesquelles les surfeurs pratiquent leur sport favori sont soumises à des pollutions de deux types : bactériologiques et chimiques. On peut bien sûr rajouter les déchets. Ils envahissent les océans, sont une gêne visuelle et peuvent même être dangereux pour l’intégrité physique des pratiquants (la personne qui écrit ces lignes a littéralement failli se faire assommé par une cuvette de toilette !).</p>
+    <p>Pour agir contre ces risques, Surfrider souhaite que la surveillance des eaux littorales soit renforcée, et faite toute l’année. Aujourd’hui, seule une surveillance estivale est imposée au niveau européen. Pour appuyer nos revendications, nous avons besoin de données sur la pratique des surfeurs, leur fréquence, leur temps d’exposition et leurs observations sur le milieu. </p>
+</div>';
+
+?>

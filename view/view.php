@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+        <link rel="icon" href="./css/img/favicon.ico">
         <link rel="stylesheet" type="text/css" href="./css/cssindex.css">
 		<title><?php echo "BioSurfers"; ?></title>
         <script src="./amongUS/amongUs.js">
