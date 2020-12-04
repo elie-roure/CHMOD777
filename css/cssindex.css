@@ -2,6 +2,13 @@ body {
     font-family: Arial;
 }
 
+/* HEADER */
+.logo {
+    height: 150px;
+    width: 100px;
+    padding-left: 100px;
+}
+
 /* MENU NAV */
 
 nav > div > a:link, nav > div > .submenu > div > a:link {text-decoration: none; color: white;}

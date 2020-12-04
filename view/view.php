@@ -9,8 +9,10 @@
         </script>
 	</head>
 	<body>
+    <div><a href="?controller=accueil"><img src="./css/img/_logo.png" alt="logo BioSurfers" class="logo"</a></div>
 	<header>
         <nav>
+            <div><a href="?controller=accueil">Accueil</a></div>
             <div><a href="#">Spots</a>
                 <div class="submenu">
                     <div><a href="?action=readAll&controller=spot">Liste</a></div>
