@@ -19,15 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b80c1def-9ca2-4cda-8abe-bca51e21595c" name="Default Changelist" comment="git ignore">
+    <list default="true" id="b80c1def-9ca2-4cda-8abe-bca51e21595c" name="Default Changelist" comment="finishing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amongUS/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amongUS/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/amongUs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amongUS/test.php" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/amongUS/testbis.html" beforeDir="false" afterPath="$PROJECT_DIR$/amongUS/testbis.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/ControllerContact.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/ControllerContact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/html/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/html/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,20 +42,30 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l9k7iWgRPwIB8Mj0foIWKrjnQ8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ProjetPHP" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../eCommerce" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/view" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -85,7 +88,175 @@
       <option name="project" value="LOCAL" />
       <updated>1607020800152</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="nav">
+      <created>1607031312864</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607031312864</updated>
+    </task>
+    <task id="LOCAL-00003" summary="nav">
+      <created>1607032097754</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607032097754</updated>
+    </task>
+    <task id="LOCAL-00004" summary="nav">
+      <created>1607032418940</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607032418940</updated>
+    </task>
+    <task id="LOCAL-00005" summary="nav">
+      <created>1607033062215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607033062215</updated>
+    </task>
+    <task id="LOCAL-00006" summary="LE NAV MARCHE AVEC LES SUBMENUS">
+      <created>1607033912924</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607033912924</updated>
+    </task>
+    <task id="LOCAL-00007" summary="LE NAV MARCHE AVEC LES SUBMENUS">
+      <created>1607038251196</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607038251196</updated>
+    </task>
+    <task id="LOCAL-00008" summary="IL AVAIT OUBLIE DE LE REQUIRE">
+      <created>1607041151890</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607041151890</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changement liste dans la view">
+      <created>1607044623337</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607044623337</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changement liste dans la view">
+      <created>1607045051927</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607045051927</updated>
+    </task>
+    <task id="LOCAL-00011" summary="changement liste dans la view">
+      <created>1607045417401</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607045417401</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bonjour je suis là">
+      <created>1607045883076</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1607045883076</updated>
+    </task>
+    <task id="LOCAL-00013" summary="bonjour je suis là">
+      <created>1607048313523</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607048313523</updated>
+    </task>
+    <task id="LOCAL-00014" summary="css fait">
+      <created>1607048749207</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1607048749207</updated>
+    </task>
+    <task id="LOCAL-00015" summary="accueil">
+      <created>1607050561620</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1607050561620</updated>
+    </task>
+    <task id="LOCAL-00016" summary="accueil">
+      <created>1607052590435</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1607052590435</updated>
+    </task>
+    <task id="LOCAL-00017" summary="on a fait des trucs durs">
+      <created>1607053813774</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1607053813774</updated>
+    </task>
+    <task id="LOCAL-00018" summary="view">
+      <created>1607055470365</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1607055470365</updated>
+    </task>
+    <task id="LOCAL-00019" summary="view">
+      <created>1607055550531</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1607055550531</updated>
+    </task>
+    <task id="LOCAL-00020" summary="forms">
+      <created>1607055888958</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1607055888958</updated>
+    </task>
+    <task id="LOCAL-00021" summary="forms">
+      <created>1607055961552</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1607055961552</updated>
+    </task>
+    <task id="LOCAL-00022" summary="forms">
+      <created>1607056998653</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1607056998653</updated>
+    </task>
+    <task id="LOCAL-00023" summary="ct long le css">
+      <created>1607059897975</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1607059897975</updated>
+    </task>
+    <task id="LOCAL-00024" summary="font family">
+      <created>1607061113411</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1607061113411</updated>
+    </task>
+    <task id="LOCAL-00025" summary="finishing">
+      <created>1607062471081</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1607062471081</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +275,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="git ignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore" />
+    <MESSAGE value="nav" />
+    <MESSAGE value="LE NAV MARCHE AVEC LES SUBMENUS" />
+    <MESSAGE value="IL AVAIT OUBLIE DE LE REQUIRE" />
+    <MESSAGE value="changement liste dans la view" />
+    <MESSAGE value="bonjour je suis là" />
+    <MESSAGE value="css fait" />
+    <MESSAGE value="accueil" />
+    <MESSAGE value="on a fait des trucs durs" />
+    <MESSAGE value="view" />
+    <MESSAGE value="forms" />
+    <MESSAGE value="ct long le css" />
+    <MESSAGE value="font family" />
+    <MESSAGE value="finishing" />
+    <option name="LAST_COMMIT_MESSAGE" value="finishing" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="144" y="76" key="MergeDialog" timestamp="1607059839376">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="76" key="MergeDialog/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607050512612" />
+    <state x="144" y="76" key="MergeDialog/0.0.1440.900/1440.25.1360.743@0.0.1440.900" timestamp="1607059839376" />
+    <state x="443" y="180" key="NewPhpClassDialog" timestamp="1607050187514">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="443" y="180" key="NewPhpClassDialog/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607050187514" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1607062472986">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607062472986" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.25.1360.743@0.0.1440.900" timestamp="1607059899515" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607062484482">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607062484482" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.25.1360.743@0.0.1440.900" timestamp="1607059785194" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607031623272">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607031623272" />
   </component>
 </project>
