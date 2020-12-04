@@ -1,6 +1,6 @@
 <form method="GET" action="index.php">
 	<div>
-		<legend>Formulaire de création de Compte rendu :</legend>
+		<legend>Formulaire de création de compte rendu :</legend>
 		<div>
 			<label for="id_compteRendu">Identifiant du compte rendu <em>*</em> : </label>
 			<input type="number" placeholder="Ex : 12" name="id_compteRendu" id="id_compteRendu" required/>

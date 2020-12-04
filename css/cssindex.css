@@ -53,18 +53,23 @@ nav div .submenu div {
 }
 
 nav > div > .submenu > div:hover { /* transition pour chagner bg qd passage souris */
-    background: #006B97;
+    background: #006B97; /* c le bleu des submenu */
     transition: 1.3s;
 }
 
 
 /* FORMULAIRES */
 
+legend {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
 form {
     margin: auto;
     width: 50%;
     padding: 1em;
-    border: 1px solid #ACD396;
+    border: 2px solid #0089C1;
     border-radius: 1em;
     margin-top: 20px;
     font-size: 14px;
