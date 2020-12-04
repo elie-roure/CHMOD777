@@ -70,15 +70,15 @@ class ControllerCompteRendu {
 			$pagetitle='le compte rendu a été maj';
 			$tab_c = ModelCompteRendu::getAllCompteRendu();
 
-			$id_compteRendu = $_GET["login"];
-			$id_spot = $c->get;
-			$login = $c->get;
-			$date_ = $c->get;
-			$duree_sessions = $c->get;
-			$houle = $c->get;
-			$meteo = $c->get;
-			$pollution = $c->get;
-			$txt_descriptif = $c->get;
+			$id_compteRendu = $_GET["id_compteRendu"];
+			$id_spot = $c->getIdSpot();
+			$login = $c->getLogin();
+			$date_ = $c->getDate();
+			$duree_sessions = $c->getDureeSessions();
+			$houle = $c->getHoule();
+			$meteo = $c->getMeteo();
+			$pollution = $c->getPollution();
+			$txt_descriptif = $c->getTxtDescriptif();
 			require File::build_path(array("view","view.php"));
 		}
 	}
@@ -109,7 +109,7 @@ class ControllerCompteRendu {
 			$view='updated';
 			$pagetitle='le compte rendu a été maj';
 			$id_compteRendu = $_GET["id_compteRendu"];
-			$tab_c = ModelCompteRendu::getCompteRenduById($_GET["id_compteRendu"]);
+			$tab_c = ModelCompteRendu::getAllCompteRendu();
 			require File::build_path(array("view","view.php"));
 		}
 	}
@@ -126,10 +126,10 @@ class ControllerCompteRendu {
 		}
 		else
 		{
-			ModelUtilisateur::delete($_GET["login"]);
+			ModelCompteRendu::delete($u->getIdCompteRendu());
 			$view='deleted';
 			$pagetitle='l\'utilisateur a été supprimé';
-			$tab_u = ModelCompteRendu::getCompteRenduById($_GET["id_compteRendu"]);
+			$tab_c = ModelCompteRendu::getAllCompteRendu();
 			$id_compteRendu = $_GET["id_compteRendu"];
 			require File::build_path(array("view","view.php"));
 		}
