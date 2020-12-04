@@ -8,13 +8,13 @@
 	<body>
 	<header>
         <nav>
-            <div><a href="?action=readAll&controller=spot">Spots</a>
+            <div><a href="#">Spots</a>
                 <div class="submenu">
-                    <div><a href="?action=readAll">Liste</a></div>
-                    <div><a href="?action=create">Créateur</a></div>
+                    <div><a href="?action=readAll&controller=spot">Liste</a></div>
+                    <div><a href="?action=create&controller=spot">Créateur</a></div>
                 </div>
             </div>
-            <div><a href="?action=readAll&controller=compterendu">Comptes Rendus</a>
+            <div><a href="#">Comptes Rendus</a>
                 <div class="submenu">
                     <div><a href="?action=readAll">Liste</a></div>
                     <div><a href="?action=create">Créateur</a></div>
