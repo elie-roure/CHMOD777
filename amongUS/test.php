@@ -38,9 +38,9 @@ setcookie("TestCookie", $_COOKIE["TestCookie"]+1, time()+3600);
 //<img src="./img/blanc.png" id="blanc" onclick="tuerBlanc()">
 //<img src="./img/jaune.png" id="jaune" onclick="tuerJaune()">
 //<img src="./img/bleu.png" id="bleu" onclick="tuerBleu()">
-<img src="./img/marron.png" id="marron" onclick="tuerMarron()">
+//<img src="./img/marron.png" id="marron" onclick="tuerMarron()">
 //<img src="./img/bleuLight.png" id="bleuClair" onclick="tuerBleuClair()">
-<img src="./img/vertLight.jpg" id="vertClair" onclick="tuerVertClair()">
+<img src="./img/vertLight.png" id="vertClair" onclick="tuerVertClair()">
 
 <p onclick="alert('tu as éliminé ' + calculerMort() +' personne')">afficher nombre de kill</p>
 

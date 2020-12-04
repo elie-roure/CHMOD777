@@ -1,9 +1,11 @@
 <div class="surcadrage">
 	<?php
+
 	foreach ($tab_c as $v){
 
 		echo '    <div class="cadre">';
 		echo '        <div>';
+        echo ' <img src="./amongUS/img/blanc.png" id="blanc" onclick="tuerBlanc()" style="height: 10%; width: 10%";>' ;
 
 		echo '            <p>';
 		echo '              Compte rendu n° ' . htmlspecialchars($v->getIdCompteRendu());
