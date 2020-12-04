@@ -4,7 +4,7 @@ require_once File::build_path(array("model","Model.php"));
 
 class ModelSpot
 {
-	private $idspot;
+	private $id_spot;
 	private $nom;
 	private $commune;
 
@@ -12,7 +12,7 @@ class ModelSpot
 
 	public function __construct($idspot = NULL, $nom = NULL, $commune = NULL) {
 		if (!is_null($idspot) && !is_null($nom) && !is_null($commune)) {
-			$this->idspot = $idspot;
+			$this->id_spot = $idspot;
 			$this->nom = $nom;
 			$this->commune = $commune;
 		}
@@ -27,11 +27,11 @@ class ModelSpot
 	}
 
 	public function afficher() {
-		echo $this->idspot;
+		echo $this->id_spot;
 	}
 
 	public static function getSpotById($id) {
-		$sql = "SELECT * from Spot WHERE idspot=:nom_tag";
+		$sql = "SELECT * from Spot WHERE id_spot=:nom_tag";
 		// Préparation de la requête
 		$req_prep = Model::$pdo->prepare($sql);
 
@@ -57,7 +57,7 @@ class ModelSpot
 
 
 		$values = array(
-			"id_spot" => $this->idspot,
+			"id_spot" => $this->id_spot,
 			"nom" => $this->nom,
 			"commune" => $this->commune,
 		);
@@ -117,7 +117,7 @@ class ModelSpot
 	 */
 	public function getIdspot()
 	{
-		return $this->idspot;
+		return $this->id_spot;
 	}
 
 	/**

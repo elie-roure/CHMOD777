@@ -7,7 +7,7 @@
         </p>
         <p>
             <label for="nom">Spot</label> :
-            <input type="number" placeholder="Ex : Bonne espérence" name="nom" id="nom" required/>
+            <input type="text" placeholder="Ex : Bonne espérence" name="nom" id="nom" required/>
         </p>
         <p>
             <label for="commune">Commune</label> :

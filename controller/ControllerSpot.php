@@ -51,7 +51,7 @@ class ControllerSpot {
 		else {
 			$view='created';
 			$pagetitle='spot a été crée';
-			$tab_c = ModelSpot::getAllSpot();
+			$tab_s = ModelSpot::getAllSpot();
 			require File::build_path(array("view","view.php"));
 		}
 	}

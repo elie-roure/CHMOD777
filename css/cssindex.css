@@ -193,3 +193,23 @@ form > div > div:last-child {
     padding: 8px;
 }
 
+.amongUS{
+    width: 3%;
+    height: 3%;
+}
+
+
+/*///////////////////////////////// gab //////////////////////////////*/
+
+.surcadrage
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cadre
+{
+    padding: 10px;
+    margin: 10px;
+    border: solid dodgerblue;
+}

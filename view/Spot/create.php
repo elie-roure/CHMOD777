@@ -7,7 +7,7 @@
 		</div>
 		<div>
 			<label for="nom"> Nom <em>*</em> :</label>
-			<input type="number" placeholder="Ex : Grammond" name="nom" id="nom" required/>
+			<input type="text" placeholder="Ex : Grammond" name="nom" id="nom" required/>
 		</div>
 		<div>
 			<label for="commune"> Commune <em>*</em> :</label>
