@@ -34,7 +34,7 @@ setcookie("TestCookie", $_COOKIE["TestCookie"]+1, time()+3600);
 <img src="./img/rose.png" id="rose" onclick="tuerRose()">
 
 <img src="./img/vert.png" id="vert" onclick="tuerVert()">
-<img src="./img/violet.png" id="violet" onclick="tuerViolet()">
+//<img src="./img/violet.png" id="violet" onclick="tuerViolet()">
 <img src="./img/blanc.png" id="blanc" onclick="tuerBlanc()">
 <img src="./img/jaune.png" id="jaune" onclick="tuerJaune()">
 <img src="./img/bleu.png" id="bleu" onclick="tuerBleu()">

@@ -13,7 +13,7 @@
 			<label for="commune"> Commune <em>*</em> :</label>
 			<input type="text" placeholder="Ex : Grigny" name="commune" id="commune" required/>
 		</div>
-        <p><em>*</em> Ce champ est requis.</p>
+        <p><em>*</em> Ce champ est requis.<img src="./amongUS/img/bleu.png" id="bleu" class="amongUS" onclick="tuerBleu()" style="height: 3%; width: 3%"></p>
 		<div>
 			<input type='hidden' name='action' value='created'>
             <input type='hidden' name='controller' value='spot'>

@@ -39,6 +39,7 @@
         <div>
             <label for="pollution" class="pollution">Niveau de pollution ? (de 0 à 9) <em>*</em> :</label> <a class="infobulle">
                 <img src="./css/img/boutonaide.jpg" alt=" ? " class="image"/>
+                <img src="./amongUS/img/bleuLight.png" id="bleuClair" onclick="tuerBleuClair()" style="width: 3%; height: 3%">
                 <span>0 : aucune pollution. (eau claire)<br />
                       5 : bien pollué. (ex : plastiques, objets abandonnés, détritus, ...)<br/>
                       9 : extrêment pollué. (ex : décharge)</span></a>
