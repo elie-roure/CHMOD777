@@ -110,7 +110,7 @@ class ModelUtilisateur {
          * @action: Mets à jour l'utilisateur avec les données passées en paramètres
          * @param: $data, données pour maj de l'utilisateur
          */
-        $sql = "UPDATE Utilisateur SET nom=:n, prenom=:p, adresse=:a, mail=:m, tel=:t, mdp=:mdp";
+        $sql = "UPDATE Utilisateur SET nom=:n, prenom=:p, adresse=:a, mail=:m, tel=:t, mdp=:mdp WHERE login=:l";
 
         $values = array(
             'n' => $data['nom'],
@@ -119,6 +119,7 @@ class ModelUtilisateur {
             'm' => $data['mail'],
             't' => $data['tel'],
             'mdp' => Security::hacher($data['mdp']),    // Hachage du mdp pour sécurité
+            'l' => $data['login'],
         );
 
         try {
