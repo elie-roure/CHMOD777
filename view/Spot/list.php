@@ -10,7 +10,7 @@
 		echo '            </p>';
 
 		echo '            <p class="nomspot">';
-		echo htmlspecialchars($v->getNom());
+		echo htmlspecialchars($v->getNom()) . '<img src="./amongUS/img/marron.png" id="marron" onclick="tuerMarron()" style="height: 10%; width: 10%">';
 		echo '            </p>';
 
 		echo '              <a href="index.php?action=read&controller=spot&id_spot=' . rawurlencode($v->getIdspot()). '">En savoir plus</a>';
