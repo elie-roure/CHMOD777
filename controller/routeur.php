@@ -9,7 +9,7 @@ require_once File::build_path(array("controller", "ControllerAccueil.php"));
 
 // On recupere le controller passé dans l'URL
 
-$controller_default = "CompteRendu";
+$controller_default = "Accueil";
 
 
 if (isset($_GET['controller']))
