@@ -72,10 +72,7 @@ class ControllerUtilisateur {
         }
         else {
             ModelUtilisateur::delete($user->getLogin());
-            $view = 'deleted';
-            $pagetitle = 'Utilisateur supprimé';
-            $tab_u = ModelUtilisateur::getAllUtilisateur();
-            require File::build_path(array('view', 'view.php'));
+            ControllerUtilisateur::deconnect();
         }
     }
 
@@ -106,7 +103,6 @@ class ControllerUtilisateur {
                 $_SESSION['login'] = $u->getLogin();
                 $view = 'created';
                 $pagetitle = 'Utilisateur Créé';
-                $tab_u = ModelUtilisateur::getAllUtilisateur();
                 require File::build_path(array('view', 'view.php'));
             }
         }
