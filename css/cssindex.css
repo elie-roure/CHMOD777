@@ -1,3 +1,7 @@
+body {
+    font-family: Arial;
+}
+
 /* MENU NAV */
 
 nav > div > a:link, nav > div > .submenu > div > a:link {text-decoration: none; color: white;}
@@ -63,6 +67,7 @@ nav > div > .submenu > div:hover { /* transition pour chagner bg qd passage sour
 legend {
     padding-bottom: 20px;
     font-size: 20px;
+    margin: auto;
 }
 
 form {
@@ -103,7 +108,7 @@ input, textarea, select {
     height: 24px;
     box-sizing: border-box;
     /* Pour harmoniser le look & feel des bordures des champs texte */
-    border: 1px solid #487338;
+    border: 1px solid #0089C1;
     vertical-align: bottom;
     border-radius: 0.4em;
 }
@@ -126,12 +131,58 @@ textarea {
      entre les étiquettes et les champs texte */
     text-align: center;
     width: 25%;
-    border: 1px solid #487338;
+    border: 1px solid #006c94;
     border-radius: 1em;
-    background-color: #66a150;
+    background-color: #0089c1;
+    color: white;
 }
 
 form > div > div:last-child {
     position: relative;
+}
+
+.pollution {
+    width: 57.5%;
+}
+
+/* INFO BULLE */
+
+.infobulle {
+    text-decoration: none;
+    position: relative;
+    text-align: left;
+}
+
+.infobulle span {
+    display: none;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    color: black;
+    background-color: #b5c7ca;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.image {
+    height: 15px;
+    width: 15px;
+}
+
+.infobulle:hover span
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 250px;
+    /* max-width:200px; */
+    min-height: 20px;
+    border: 1px solid black;
+    margin-top: 12px;
+    margin-left: 32px;
+    overflow: hidden;
+    padding: 8px;
 }
 

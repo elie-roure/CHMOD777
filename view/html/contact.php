@@ -1,4 +1,5 @@
 <form action="./formsent.html" method="post">
+    <legend>Veuillez remplir ce formulaire si vous souhaitez nous contacter.</legend>
     <div>
         <div>
             <label>Nom <em>*</em> :</label>
