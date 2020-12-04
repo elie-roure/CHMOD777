@@ -1,19 +1,19 @@
-<div>
+<div style="display: flex;justify-content: center">
 	<?php
 
-		echo '    <div>';
+		echo '    <div style="width:200px;border:solid lightgoldenrodyellow;background-color:cadetblue;padding: 2% 10%">';
 		echo '        <div>';
 
-		echo '            <p>';
+		echo '            <p style="font-style: italic">';
 		echo '              Spot n° ' . htmlspecialchars($s->getIdSpot());
 		echo '            </p>';
 
         echo '            <p>';
-        echo '              Nom : ' . htmlspecialchars($s->getNom());
+        echo '              Nom : <span style="font-size: x-large">' . htmlspecialchars($s->getNom()) . '</span>';
         echo '            </p>';
 
         echo '            <p>';
-        echo '              Commune : ' . htmlspecialchars($s->getCommune());
+        echo '              Commune : <span style="font-size: x-large">' . htmlspecialchars($s->getCommune()) . '</span>';
         echo '            </p>';
 
 		echo '            <p>';
