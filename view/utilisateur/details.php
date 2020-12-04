@@ -1,5 +1,5 @@
 <div style="display: flex; flex-direction: column; padding: 1%;
-max-width: 30%; border: 2px solid black">
+max-width: 30%; border: 2px solid black" class="boutoncasse">
 
 <?php
 echo "<div> Connecté en tant que : " . htmlspecialchars($user->getLogin()) . "</div>";

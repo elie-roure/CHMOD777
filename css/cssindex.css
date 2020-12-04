@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Billion;
+    src:url(./Billion-Reach.otf);
+}
+
 body {
     font-family: Arial;
 }

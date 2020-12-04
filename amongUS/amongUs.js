@@ -15,10 +15,9 @@ setCookie("start", 0, 1);
 
 
     if (getCookie("start") === "0") {
-        var prenom = prompt('Entrez votre prénom');
-        var nom = prompt('Entrez votre nom');
-        var result = prenom +" "+ nom;
-        alert("Bienvenue "+ result +" sur BioSurfers !!! \n Je vous souhaite une bonne navigation.\n Un imposteur est caché à toi de le trouver attention à ne pas tuer tout les innocents." );
+        var nom = prompt('Entrez votre nom :');
+        var result = nom;
+        alert("Bienvenue"+ result +" sur BioSurfers !!! \n Un imposteur est caché, à toi de le trouver ! \n Attention à ne pas tuer tous les innocents... \n Je vous souhaite une bonne navigation." );
         var valCookie = getCookie("start") + 1;
         document.cookie = `start=${valCookie}`;
 
