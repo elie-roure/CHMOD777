@@ -18,7 +18,7 @@ setCookie("start", 0, 1);
         var prenom = prompt('Entrez votre prénom');
         var nom = prompt('Entrez votre nom');
         var result = prenom +" "+ nom;
-        alert("Bienvenue "+ result +" sur BioSurffeur !!! \n Je vous souhaite une bonne navigation.\n Un imposteur est caché à toi de le trouver attention a ne pas tuer tout les innocents" );
+        alert("Bienvenue "+ result +" sur BioSurfers !!! \n Je vous souhaite une bonne navigation.\n Un imposteur est caché à toi de le trouver attention à ne pas tuer tout les innocents." );
         var valCookie = getCookie("start") + 1;
         document.cookie = `start=${valCookie}`;
 
@@ -69,7 +69,7 @@ function tuerRose() {
 
         image.src = "./amongUS/img/fantome.png";
         alert("Vous avez zigouillez un platiste, malheureusement c'etait un collègue")
-    }else alert("Tu as deja tué ctte personne");
+    }else alert("Tu as deja tué cette personne");
 }
 function tuerViolet() {
     var image = document.getElementById('violet');
@@ -80,8 +80,8 @@ function tuerViolet() {
         document.cookie = `violet=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Vous avez desingé l'homme sencé")
-    }else alert("Tu as deja tué ctte personne");
+        alert("Vous avez desingué l'homme sencé")
+    }else alert("Tu as deja tué cette personne");
 }
 function tuerVert() {
     var image = document.getElementById('vert');
@@ -159,7 +159,7 @@ function tuerBleuClair() {
 
         image.src = "./amongUS/img/fantome.png";
         alert("Bleu c'est le ciel, vous voyez, c'est comme si vous aviez tuez le ciel, le monde va nous tomber sur la tête, a cause de VOUS. Bref, tout ça pour dire vous avez tuez un innocent illuminati ")
-    }else alert("Tu as deja tué ctte personne");
+    }else alert("Tu as deja tué cette personne");
 }
 
 function tuerVertClair() {
@@ -172,7 +172,7 @@ function tuerVertClair() {
 
         image.src = "./amongUS/img/fantome.png";
         alert("Je vais faire chez Paul de la zone 51 ! Ha zut je l'ai tué !!!")
-    }else alert("Tu as deja tué ctte personne");
+    }else alert("Tu as deja tué cette personne");
 }
 
     function calculerMort(){
