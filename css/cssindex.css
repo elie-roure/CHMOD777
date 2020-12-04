@@ -201,15 +201,38 @@ form > div > div:last-child {
 
 /*///////////////////////////////// gab //////////////////////////////*/
 
+/* list */
+
 .surcadrage
 {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .cadre
 {
+    width: 150px;
     padding: 10px;
+    padding-bottom: 20px;
     margin: 10px;
-    border: solid dodgerblue;
+    margin-bottom: 20px;
+    border: solid lightgoldenrodyellow;
+    background-color: lightskyblue;
 }
+
+.nomspot{
+    font-size: 23px;
+}
+
+.surcadrage a
+{
+    color: darkblue;
+}
+
+.surcadrage a:hover
+{
+    color: darkred;
+}
+
+/* detail */
