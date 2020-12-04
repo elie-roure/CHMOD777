@@ -38,7 +38,7 @@
             <input type="text" placeholder="Ex : c'est cool de faire du surf" name="txt_descriptif" id="txt_descriptif" required/>
         </p>
         <p>
-            <input type='hidden' name='action' value='created'>
+            <input type='hidden' name='action' value='updated'>
             <input type="submit" value="Envoyer" />
         </p>
     </fieldset>
