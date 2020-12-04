@@ -1,5 +1,3 @@
-//var personne = prompt("entrez votre nom")
-//alert("bonjour "+ personne +" Tu dois trouver l'imposteur");
 setCookie("violet",0,2);
 setCookie("bleu",0,2);
 setCookie("blanc",0,2);
@@ -20,17 +18,6 @@ setCookie("start", 0, 1);
         alert("Bienvenue"+ result +" sur BioSurfers !!! \n Un imposteur est caché, à toi de le trouver ! \n Attention à ne pas tuer tous les innocents... \n Je vous souhaite une bonne navigation." );
         var valCookie = getCookie("start") + 1;
         document.cookie = `start=${valCookie}`;
-
-
-        // compteur = compteur +1;
-    //alert(test);
-    //var image = document.createElement('img');
-    //image.src = "amongus.png";
-   // var maDiv = document.getElementById("bleu");
-
-   // maDiv.innerHTML = '';
-
-    //maDiv.appendChild(image);
 
 }
 function setCookie(cname, cvalue, exdays) {
@@ -67,8 +54,8 @@ function tuerRose() {
         document.cookie = `rose=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Vous avez zigouillez un platiste, malheureusement c'etait un collègue")
-    }else alert("Tu as deja tué cette personne");
+        alert("Vous avez zigouillé un platiste, malheureusement c'était un collègue...")
+    }else alert("Tu as deja tué cette personne.");
 }
 function tuerViolet() {
     var image = document.getElementById('violet');
@@ -79,8 +66,8 @@ function tuerViolet() {
         document.cookie = `violet=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Vous avez desingué l'homme sencé")
-    }else alert("Tu as deja tué cette personne");
+        alert("Vous avez desingué le seul homme sensé... Bravo, c'était l'imposteur !")
+    }else alert("Tu as deja tué cette personne.");
 }
 function tuerVert() {
     var image = document.getElementById('vert');
@@ -91,8 +78,8 @@ function tuerVert() {
         document.cookie = `vert=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Tu as tuez le gentil petit E.T qui s'echapait de la zone51")
-    }else alert("Tu as deja tué cette personne");
+        alert("Tu as tué le gentil petit E.T. qui s'échappait de la Zone51")
+    }else alert("Tu as deja tué cette personne.");
 }
 
 function tuerBlanc() {
@@ -104,8 +91,8 @@ function tuerBlanc() {
         document.cookie = `blanc=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Vous avez tuez la pauvre Mme LeBlanc dans le salon avec la cle anglaise")
-    }else alert("Tu as deja tué cette personne");
+        alert("Vous avez tué la pauvre Mme LeBlanc, dans le salon, avec la clé anglaise")
+    }else alert("Tu as deja tué cette personne.");
 }
 function tuerJaune() {
     var image = document.getElementById('jaune');
@@ -116,8 +103,8 @@ function tuerJaune() {
         document.cookie = `jaune=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Un reptilien est mort, c'etait un colleguos")
-    }else alert("Tu as deja tué cette personne");
+        alert("Un reptilien est mort, c'était un colleguos...")
+    }else alert("Tu as deja tué cette personne.");
 }
 
 function tuerBleu() {
@@ -129,8 +116,8 @@ function tuerBleu() {
         document.cookie = `bleu=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Ho no! Pourquoi avez vous tué le Chris Cosmique AKA Le grand Monarque ?")
-    }else alert("Tu as deja tué cette personne");
+        alert("Ho no! Pourquoi avez-vous tué le Chris Cosmique AKA Le grand Monarque ?")
+    }else alert("Tu as deja tué cette personne.");
 }
 
 
@@ -143,8 +130,8 @@ function tuerMarron() {
         document.cookie = `marron=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Marron rime avec Franc Maçon. Un Innocent est décédé")
-    }else alert("Tu as deja tué cette personne");
+        alert("Marron rime avec Franc Maçon. Un Innocent est décédé...")
+    }else alert("Tu as deja tué cette personne.");
 }
 
 
@@ -157,8 +144,8 @@ function tuerBleuClair() {
         document.cookie = `bleuClair=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Bleu c'est le ciel, vous voyez, c'est comme si vous aviez tuez le ciel, le monde va nous tomber sur la tête, a cause de VOUS. Bref, tout ça pour dire vous avez tuez un innocent illuminati ")
-    }else alert("Tu as deja tué cette personne");
+        alert("Bleu c'est comme le ciel, vous voyez, c'est comme si vous aviez tué le ciel... le monde va nous tomber sur la tête. A cause de VOUS. Bref, tout ça pour dire vous avez tué un innocent illuminati.")
+    }else alert("Tu as deja tué cette personne.");
 }
 
 function tuerVertClair() {
@@ -170,8 +157,8 @@ function tuerVertClair() {
         document.cookie = `vertClair=${valCookie}`;
 
         image.src = "./amongUS/img/fantome.png";
-        alert("Je vais faire chez Paul de la zone 51 ! Ha zut je l'ai tué !!!")
-    }else alert("Tu as deja tué cette personne");
+        alert("Je vais faire caca chez Paul de la zone 51 ! Ha zut je l'ai tué !!!")
+    }else alert("Tu as deja tué cette personne.");
 }
 
     function calculerMort(){
