@@ -38,7 +38,6 @@
             $filepath = File::build_path(array("view", static::$controller, "$view.php"));
             require $filepath;
             ?>
-            BONJOUR JE SUIS LA
         </p>
     </main>
 
