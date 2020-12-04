@@ -25,8 +25,10 @@
                     <div><a href="?action=create">Créateur</a></div>
                 </div>
             </div>
-            <div><a href="?action=readAll&controller=utilisateur">Utilisateurs</a></div>
-            <div><a href="?action=create&controller=utilisateur">Inscription</a></div>
+            <?=(isset($_SESSION['login'])) ? "<div><a href='?action=read&controller=utilisateur&login='".$_SESSION['login'].">Profil</a></div>" : ""?>
+            <?=(!isset($_SESSION['login'])) ? "<div><a href='?action=create&controller=utilisateur'>Inscription</a></div>" : ""?>
+            <?=(!isset($_SESSION['login'])) ? "<div><a href='?action=connect&controller=utilisateur'>Connexion</a></div>" : ""?>
+            <?=(isset($_SESSION['login'])) ? "<div><a href='?action=deconnect&controller=utilisateur'>Deconnexion</a></div>" : ""?>
             <div><a href="?controller=apropos">A Propos</a></div>
             <div><a href="?controller=contact">Contact</a></div>
         </nav>
