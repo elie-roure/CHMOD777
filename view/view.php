@@ -22,7 +22,7 @@
             <div><a href="#">Spots</a>
                 <div class="submenu">
                     <div><a href="?action=readAll&controller=spot">Liste</a></div>
-                    <div><a href="?action=create&controller=spot">Créateur</a></div>
+                    <?=(isset($_SESSION['login'])) ? "<div><a href='?action=create&controller=spot'>Créateur</a></div>" : ""?>
                 </div>
             </div>
             <div><a href="#">Comptes Rendus</a>
