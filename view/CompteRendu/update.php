@@ -39,6 +39,7 @@
         </p>
         <p>
             <input type='hidden' name='action' value='updated'>
+            <input type='hidden' name='controller' value='CompteRendu'>
             <input type="submit" value="Envoyer" />
         </p>
     </fieldset>

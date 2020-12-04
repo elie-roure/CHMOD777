@@ -53,6 +53,7 @@
         <p><em>*</em> Ce champ est requis.</p>
 		<div>
 			<input type='hidden' name='action' value='created'>
+            <input type='hidden' name='controller' value='CompteRendu'>
 			<input type="submit" value="Envoyer" class="button" />
 		</div>
     </div>

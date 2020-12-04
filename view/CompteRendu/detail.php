@@ -42,8 +42,8 @@
 	echo '            </p>';
 
 	echo '            <p>';
-	echo ' <a href="index.php?action=delete&id_compteRendu=' . rawurlencode($c->getIdCompteRendu()) . '">X' . '</a>' ;
-	echo ' <a href="index.php?action=update&id_compteRendu=' . rawurlencode($c->getIdCompteRendu()) . '">maj ' . '</a>' ;
+	echo ' <a href="index.php?action=delete&controller=CompteRendu&id_compteRendu=' . rawurlencode($c->getIdCompteRendu()) . '">X' . '</a>' ;
+	echo ' <a href="index.php?action=update&controller=CompteRendu&id_compteRendu=' . rawurlencode($c->getIdCompteRendu()) . '">maj ' . '</a>' ;
 	echo '            </p>';
 
 

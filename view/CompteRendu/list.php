@@ -12,10 +12,10 @@
 		echo '            </p>';
 
 		echo '            <p>';
-		echo '  <a href="index.php?action=delete&id_compteRendu=' . rawurlencode($v->getIdCompteRendu()) . '">X</a>' . ' <a href="index.php?action=update&id_compteRendu=' . rawurlencode($v->getIdCompteRendu()) . '">maj</a>';
+		echo '  <a href="index.php?action=delete&controller=CompteRendu&id_compteRendu=' . rawurlencode($v->getIdCompteRendu()) . '">X</a>' . ' <a href="index.php?action=update&controller=CompteRendu&id_compteRendu=' . rawurlencode($v->getIdCompteRendu()) . '">maj</a>';
         echo '            </p>';
 
-		echo '              <a href="index.php?action=read&id_compteRendu=' . rawurlencode($v->getIdCompteRendu()). '">En savoir plus</a>';
+		echo '              <a href="index.php?action=read&controller=CompteRendu&id_compteRendu=' . rawurlencode($v->getIdCompteRendu()). '">En savoir plus</a>';
 
 		echo '</div>';
 		echo '</div>';
