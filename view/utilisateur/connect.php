@@ -8,7 +8,7 @@
             <label for="mdp_id">Mot de passe <em>*</em> :</label>
             <input type="password" name="mdp" id="mdp_id" required/>
         </div>
-
+        <p><em>*</em> Ce champ est requis.</p>
         <input type="hidden" name="controller" value="utilisateur">
         <input type="hidden" name="action" value="connected">
         <input type="submit" value="Envoyer" class="button" />
