@@ -22,7 +22,7 @@
             </div>
             <div><a href="?action=readAll&controller=utilisateur">Utilisateurs</a>
                 <div class="submenu">
-                    <div><a href="?action=readAll">Liste</a></div>
+                    <div><a href="?action=readAll&controller=utilisateurs">Liste</a></div>
                     <div><a href="?action=create">Créateur</a></div>
                 </div>
             </div>
