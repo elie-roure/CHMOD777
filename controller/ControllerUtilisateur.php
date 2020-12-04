@@ -95,12 +95,12 @@ class ControllerUtilisateur {
             require File::build_path(array('view', 'view.php'));
         }
         else {
-            $u = new ModelUtilisateur($_GET['login'], $_GET['nom'], $_GET['prenom'], $_GET['adresse'], $_GET['mail'], $_GET['tel'], $_GET['mdp']);
-            if($u->save()) {
+            $user = new ModelUtilisateur($_GET['login'], $_GET['nom'], $_GET['prenom'], $_GET['adresse'], $_GET['mail'], $_GET['tel'], $_GET['mdp']);
+            if($user->save()) {
                 ControllerUtilisateur::error();
             }
             else {
-                $_SESSION['login'] = $u->getLogin();
+                $_SESSION['login'] = $user->getLogin();
                 $view = 'created';
                 $pagetitle = 'Utilisateur Créé';
                 require File::build_path(array('view', 'view.php'));
