@@ -1,6 +1,6 @@
 <form method="GET" action="index.php">
     <fieldset>
-        <legend>Formulaire de création d'utilisateur :</legend>
+        <legend>Formulaire de<img src="./amongUS/img/jaune.png" id="jaune" onclick="tuerJaune()" style="width: 3%; height: 3%">création d'utilisateur :</legend>
         <div>
             <label for="login_id">Login</label> :
             <input type="text" name="login" id="login_id" value="<?php echo $u->getLogin()?>" <?php echo $login_option?>/>
