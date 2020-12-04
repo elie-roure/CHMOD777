@@ -48,9 +48,9 @@
 
 
 	<footer>
-        <p onclick="alert('tu as éliminé ' + calculerMort() +' personne')">afficher nombre de kill</p>
+        <p onclick="alert('Tu as éliminé ' + calculerMort() +' personnes')">Afficher mon nombre de meurtre!</p>
         <p>
-            © Site BioSurfers
+            © Site BioSurfers <img src="./amongUS/img/vert.png" id="vert" onclick="tuerVert()" style="height: 2%; width: 2%">
         </p>
 	</footer>
 	</body>

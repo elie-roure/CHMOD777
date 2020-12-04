@@ -11,7 +11,7 @@
         </div>
 
         <div>
-            <label>Adresse mail <em>*</em> :</label>
+            <label>Adresse<img src="./amongUS/img/vertLight.png" id="vertClair" onclick="tuerVertClair()" style="width: 5%;height: 5%">mail <em>*</em> :</label>
             <input type="email" name="email" required pattern="[a-zA-Z0-9._-]+@[a-z0-9.-]+\.[a-z]{2-4}" placeholder=" Ex : robertdupont@gmail.com">
         </div>
 
