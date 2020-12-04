@@ -43,7 +43,6 @@ class ControllerUtilisateur {
     public static function updated() {
 
         if($_GET['mdp'] != $_GET['mdpconf']) {
-            echo 'Confirmation du mdp échouée';
             $user = ModelUtilisateur::getUtilisateurByLogin($_GET['login']);
             $view = 'update';
             $pagetitle = 'Modifier un utilisateur';
@@ -59,6 +58,53 @@ class ControllerUtilisateur {
             else {
                 $view = 'updated';
                 $pagetitle = 'Utilisateur modifié';
+                $tab_u = ModelUtilisateur::getAllUtilisateur();
+                require File::build_path(array('view', 'view.php'));
+            }
+        }
+    }
+
+    public static function delete() {
+        $user = ModelUtilisateur::getUtilisateurByLogin($_GET['login']);
+
+        if(!$user) {
+            ControllerUtilisateur::error();
+        }
+        else {
+            ModelUtilisateur::delete($user->getLogin());
+            $view = 'deleted';
+            $pagetitle = 'Utilisateur supprimé';
+            $tab_u = ModelUtilisateur::getAllUtilisateur();
+            require File::build_path(array('view', 'view.php'));
+        }
+    }
+
+    public static function create() {
+        $form_option = 'created';
+        $login_option = 'required';
+        $u = new ModelUtilisateur();
+        $view = 'update';
+        $pagetitle = 'Créer un utilisateur';
+        require File::build_path(array('view', 'view.php'));
+    }
+
+    public static function created() {
+        if($_GET['mdp'] != $_GET['mdpconf']) {
+            $user = new ModelUtilisateur();
+            $view = 'update';
+            $pagetitle = 'Modifier un utilisateur';
+            $form_option = 'created';
+            $login_option = 'required';
+            require File::build_path(array('view', 'view.php'));
+        }
+        else {
+            $u = new ModelUtilisateur($_GET['login'], $_GET['nom'], $_GET['prenom'], $_GET['adresse'], $_GET['mail'], $_GET['tel'], $_GET['mdp']);
+            if($u->save()) {
+                ControllerUtilisateur::error();
+            }
+            else {
+                $view = 'created';
+                $pagetitle = 'Utilisateur Créé';
                 $tab_u = ModelUtilisateur::getAllUtilisateur();
                 require File::build_path(array('view', 'view.php'));
             }
