@@ -160,6 +160,26 @@ class ModelUtilisateur {
     }
 
 
+    public static function checkMdp($login, $mdp) {
+        $sql = "SELECT * FROM Utilisateur WHERE login = :l AND mdp = :m";
+
+        $value = array('l' => $login, 'm' => $mdp);
+
+        try {
+            $req_prep = Model::$pdo->prepare($sql);
+            $req_prep->execute($value);
+            $req_prep->setFetchMode(PDO::FETCH_CLASS, 'ModelUtilisateur');
+            $tab_u = $req_prep->fetchAll();
+
+            return (empty($tab_u)) ? false : true;
+        }
+        catch (PDOException $e) {
+            echo $e->getMessage();
+            return false;
+        }
+    }
+
+
 
 
 }

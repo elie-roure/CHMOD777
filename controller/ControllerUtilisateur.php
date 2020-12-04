@@ -103,11 +103,31 @@ class ControllerUtilisateur {
                 ControllerUtilisateur::error();
             }
             else {
+                $_SESSION['login'] = $u->getLogin();
                 $view = 'created';
                 $pagetitle = 'Utilisateur Créé';
                 $tab_u = ModelUtilisateur::getAllUtilisateur();
                 require File::build_path(array('view', 'view.php'));
             }
+        }
+    }
+
+    public static function connect() {
+        $view = 'connect';
+        $pagetitle = 'connexion';
+        require File::build_path(array('view', 'view.php'));
+    }
+
+    public static function connected() {
+        if(ModelUtilisateur::checkMdp($_GET['login'], Security::hacher($_GET['mdp']))) {
+            $_SESSION['login'] = $_GET['login'];
+            $view = 'connected';
+            $pagetitle = 'Profil';
+            $user = ModelUtilisateur::getUtilisateurByLogin($_GET['login']);
+            require File::build_path(array('view', 'view.php'));
+        }
+        else {
+            ControllerUtilisateur::error();
         }
     }
 
