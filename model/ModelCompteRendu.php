@@ -15,9 +15,6 @@ class ModelCompteRendu
 	private $txt_descriptif;
 
 
-
-
-
 	public function __construct($id_compteRendu = NULL, $id_spot = NULL, $login = NULL, $date_ = NULL, $duree_sessions = NULL, $houle = NULL, $meteo = NULL, $pollution = NULL, $txt_descriptif = NULL) {
 		if (!is_null($id_compteRendu) && !is_null($id_spot) && !is_null($login) && !is_null($date_) && !is_null($duree_sessions) && !is_null($houle) && !is_null($meteo) && !is_null($pollution) && !is_null($txt_descriptif)) {
 			$this->id_compteRendu = $id_compteRendu;
@@ -66,8 +63,9 @@ class ModelCompteRendu
 
 	public function save(){
 
-		$sql = "INSERT INTO CompteRendu(id_compteRendu, id_spot, login, date_, duree_sessions, houle, meteo, pollution, txt_descriptif) VALUES(:id_compteRendu, :id_spot, :login, :date_, :duree_sessions, :houle, :meteo, :pollution, :txt_descriptif)";
+		$sql = "INSERT INTO CompteRendu(id_compteRendu, id_spot, login, date_, duree_session, houle, meteo, pollution, txt_descriptif) VALUES(:id_compteRendu, :id_spot, :login, :date_, :duree_sessions, :houle, :meteo, :pollution, :txt_descriptif)";
 		$req_prep = Model::$pdo->prepare($sql);
+
 
 		$values = array(
 			"id_compteRendu" => $this->id_compteRendu,
@@ -87,6 +85,7 @@ class ModelCompteRendu
 		}
 		catch(PDOException $e)
 		{
+			echo $e->getMessage();
 			return false;
 		}
 	}
@@ -106,6 +105,7 @@ class ModelCompteRendu
 		}
 		catch(PDOException $e)
 		{
+			echo $e->getMessage();
 			return false;
 		}
 	}
@@ -136,6 +136,7 @@ class ModelCompteRendu
 		}
 		catch(PDOException $e)
 		{
+			echo $e->getMessage();
 			return false;
 		}
 	}

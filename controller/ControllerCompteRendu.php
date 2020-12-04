@@ -51,7 +51,7 @@ class ControllerCompteRendu {
 		else {
 			$view='created';
 			$pagetitle='compte rendu a été crée';
-			$tab_u = ModelCompteRendu::getAllCompteRendu();
+			$tab_c = ModelCompteRendu::getAllCompteRendu();
 			require File::build_path(array("view","view.php"));
 		}
 	}
