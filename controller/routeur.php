@@ -3,6 +3,7 @@
 require_once File::build_path(array("controller","ControllerCompteRendu.php"));
 require_once File::build_path(array("controller", "ControllerUtilisateur.php"));
 require_once File::build_path(array("controller", "ControllerApropos.php"));
+require_once File::build_path(array("controller", "ControllerContact.php"));
 
 // On recupere le controller passée dans l'URL
 
@@ -37,8 +38,6 @@ else
 	$action = "readAll";
 }
 
-
 // Appel de la méthode statique $action de ControllerVoiture
 $controller_class::$action();
-
 ?>

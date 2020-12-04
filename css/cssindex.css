@@ -28,18 +28,22 @@ nav > div > a {
 }
 
 .submenu {
+    max-height: 0px;
     position: absolute;
+    display: none;
     top: 60px;
     left: 0px;
     bottom: 200px;
-    display: none;
     width: 100%;
     text-align: center;
-    transition: 0s;
+
 }
 
 nav > div:hover > .submenu { /* faire apparaitre les menus déroulants */
     display: block;
+    max-height: 300px;
+    transition: 3s;
+
 }
 
 nav div .submenu div {

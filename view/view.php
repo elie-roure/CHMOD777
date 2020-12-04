@@ -26,8 +26,8 @@
                     <div><a href="?action=create">Créateur</a></div>
                 </div>
             </div>
-            <div><a href="?action=apropos">A Propos</a></div>
-            <div><a href="?action=contact">Contact</a></div>
+            <div><a href="?controller=apropos">A Propos</a></div>
+            <div><a href="?controller=contact">Contact</a></div>
         </nav>
 	</header>
 
@@ -44,8 +44,8 @@
 
 
 	<footer>
-        <p style="border: 1px solid black;text-align:right;padding-right:1em;">
-            Site BioSurfers
+        <p>
+            © Site BioSurfers
         </p>
 	</footer>
 	</body>

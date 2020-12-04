@@ -1,5 +1,4 @@
 <?php
-
 class ControllerContact {
     protected static $controller = 'html';
 
@@ -9,5 +8,4 @@ class ControllerContact {
         require File::build_path(array('view', 'view.php'));
     }
 }
-
 ?>
