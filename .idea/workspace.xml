@@ -80,6 +80,8 @@
       <workItem from="1607018235473" duration="363000" />
       <workItem from="1607018870804" duration="1214000" />
       <workItem from="1607020688773" duration="5840000" />
+      <workItem from="1607064088891" duration="472000" />
+      <workItem from="1607502527131" duration="928000" />
     </task>
     <task id="LOCAL-00001" summary="git ignore">
       <created>1607020800152</created>
@@ -256,7 +258,21 @@
       <option name="project" value="LOCAL" />
       <updated>1607062471081</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="finishing">
+      <created>1607062492538</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1607062492538</updated>
+    </task>
+    <task id="LOCAL-00027" summary="icon">
+      <created>1607064110254</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1607064110255</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +306,8 @@
     <MESSAGE value="ct long le css" />
     <MESSAGE value="font family" />
     <MESSAGE value="finishing" />
-    <option name="LAST_COMMIT_MESSAGE" value="finishing" />
+    <MESSAGE value="icon" />
+    <option name="LAST_COMMIT_MESSAGE" value="icon" />
   </component>
   <component name="WindowStateProjectService">
     <state x="144" y="76" key="MergeDialog" timestamp="1607059839376">
@@ -302,15 +319,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="443" y="180" key="NewPhpClassDialog/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607050187514" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1607062472986">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1607064129925">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607062472986" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607064129925" />
     <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.25.1360.743@0.0.1440.900" timestamp="1607059899515" />
-    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607062484482">
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607064373140">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607062484482" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.0.1360.768@0.0.1440.900" timestamp="1607064373140" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900/1440.25.1360.743@0.0.1440.900" timestamp="1607059785194" />
     <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1607031623272">
       <screen x="0" y="0" width="1440" height="900" />
